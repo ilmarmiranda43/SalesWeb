@@ -262,3 +262,5 @@ D:\Treinamento C# Udemy\Aula Secao 18\Sistema Web\SystemSallesWeb\SystemSallesWe
 D:\Treinamento C# Udemy\Aula Secao 18\Sistema Web\SystemSallesWeb\SystemSallesWeb\bin\Debug\net8.0\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
 D:\Treinamento C# Udemy\Aula Secao 18\Sistema Web\SystemSallesWeb\SystemSallesWeb\bin\Debug\net8.0\runtimes\win\lib\net6.0\System.Runtime.Caching.dll
 D:\Treinamento C# Udemy\Aula Secao 18\Sistema Web\SystemSallesWeb\SystemSallesWeb\obj\Debug\net8.0\SystemSallesWeb.sourcelink.json
+D:\Treinamento C# Udemy\Aula Secao 18\Sistema Web\SystemSallesWeb\SystemSallesWeb\bin\Debug\net8.0\MySqlConnector.dll
+D:\Treinamento C# Udemy\Aula Secao 18\Sistema Web\SystemSallesWeb\SystemSallesWeb\bin\Debug\net8.0\Pomelo.EntityFrameworkCore.MySql.dll
