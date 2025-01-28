@@ -3,6 +3,7 @@ using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Configuration;
 using SystemSallesWeb.Data;
+using SystemSallesWeb.Services;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SystemSallesWebContext>(options =>
@@ -15,6 +16,8 @@ builder.Services.AddDbContext<SystemSallesWebContext>(options =>
 builder.Services.AddControllersWithViews();
 
 builder.Services.AddScoped<SeedingService>();
+
+builder.Services.AddScoped<SellerService>();
 
 
 var app = builder.Build();
