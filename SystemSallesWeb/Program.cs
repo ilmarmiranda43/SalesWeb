@@ -2,8 +2,10 @@
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Options;
 using System.Configuration;
+using System.Globalization;
 using SystemSallesWeb.Data;
 using SystemSallesWeb.Services;
+using Microsoft.AspNetCore.Localization;
 
 var builder = WebApplication.CreateBuilder(args);
 builder.Services.AddDbContext<SystemSallesWebContext>(options =>
@@ -37,6 +39,16 @@ using (var scope = app.Services.CreateScope())
     var seedingService = scope.ServiceProvider.GetRequiredService<SeedingService>();
     seedingService.Seed(); // Substitua "Seed" pelo nome do método que deseja chamar
 }
+
+var enUS = new CultureInfo("en-US");
+var localizationOptions = new RequestLocalizationOptions
+{
+    DefaultRequestCulture = new RequestCulture(enUS),
+    SupportedCultures = new List<CultureInfo> { enUS },
+    SupportedUICultures = new List<CultureInfo> { enUS }
+};
+
+app.UseRequestLocalization(localizationOptions);
 
 app.UseHttpsRedirection();
 app.UseStaticFiles();
