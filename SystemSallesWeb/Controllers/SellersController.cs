@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using SystemSallesWeb.Models;
+using SystemSallesWeb.Models.ViewModels;
 using SystemSallesWeb.Services;
 
 namespace SystemSallesWeb.Controllers
@@ -8,10 +9,12 @@ namespace SystemSallesWeb.Controllers
     {
 
         private readonly SellerService _sellerService;
+        private readonly DepartmentService _departmentService;
 
-        public SellersController(SellerService sellerService)
+        public SellersController(SellerService sellerService, DepartmentService departmentService)
         {
             _sellerService = sellerService;
+            _departmentService = departmentService;
         }
 
         public IActionResult Index()
@@ -22,7 +25,9 @@ namespace SystemSallesWeb.Controllers
 
         public IActionResult Create()
         {
-            return View();
+            var departments = _departmentService.FindAll();
+            var viewModel = new SellerFormViewModels { Departments = departments };
+            return View(viewModel);
         }
 
         [HttpPost]
