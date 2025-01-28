@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using NuGet.Protocol.Plugins;
 using System.Data;
 using System.Diagnostics;
 using SystemSallesWeb.Models;
@@ -37,6 +38,13 @@ namespace SystemSallesWeb.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Seller seller)
         {
+            if (!ModelState.IsValid)
+            {
+                var department = _departmentService.FindAll();
+                var viewModels = new SellerFormViewModels { Seller = seller, Departments = department };
+                return View(viewModels);
+            }
+
             _sellerService.Insert(seller);
             return RedirectToAction(nameof(Index));
         }
@@ -81,8 +89,14 @@ namespace SystemSallesWeb.Controllers
             return View(obj);
         }
 
-        public IActionResult Edit(int? id)
+        public IActionResult Edit(int? id, Seller seller)
         {
+            if (!ModelState.IsValid)
+            {
+                var department = _departmentService.FindAll();
+                var viewModels = new SellerFormViewModels { Seller = seller, Departments = department};
+                return View(viewModels);
+            }
             if (id == null)
             {
                 return RedirectToAction(nameof(Error), new { message = "Id not provided" });
@@ -118,7 +132,7 @@ namespace SystemSallesWeb.Controllers
             {
                 return RedirectToAction(nameof(Error), new { message = e.Message });
             }
-            
+
         }
 
         public IActionResult Error(string message)
@@ -128,7 +142,7 @@ namespace SystemSallesWeb.Controllers
                 Message = message,
                 RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier
             };
-            
+
             return View(viewModel);
         }
     }

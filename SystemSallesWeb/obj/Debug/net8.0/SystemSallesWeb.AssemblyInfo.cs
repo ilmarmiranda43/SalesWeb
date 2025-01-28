@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SystemSallesWeb")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+415cfadcb4dd566a62d809247f57c57ad9ec4293")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+94b6fa5838be6224d6f13cf3c951d703b141f472")]
 [assembly: System.Reflection.AssemblyProductAttribute("SystemSallesWeb")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SystemSallesWeb")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
