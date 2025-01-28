@@ -21,6 +21,10 @@
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
+      "Id": "D:\\Treinamento C# Udemy\\Aula Secao 18\\Sistema Web\\SystemSallesWeb\\SystemSallesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
+    },
+    {
       "Id": "D:\\Treinamento C# Udemy\\Aula Secao 18\\Sistema Web\\SystemSallesWeb\\SystemSallesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },

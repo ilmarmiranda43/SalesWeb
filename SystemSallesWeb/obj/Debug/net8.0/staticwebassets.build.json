@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "TwXIZaf3lKwOmYNG99n6lOC4c4UN6nPaGMCD869I+QA=",
+  "Hash": "RfD+0N3glhqKWHEFjPbvZOPnJls9ZgIPJmw+AlfM+7k=",
   "Source": "SystemSallesWeb",
   "BasePath": "_content/SystemSallesWeb",
   "Mode": "Default",
@@ -288,6 +288,27 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Identity": "D:\\Treinamento C# Udemy\\Aula Secao 18\\Sistema Web\\SystemSallesWeb\\SystemSallesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "SourceId": "SystemSallesWeb",
+      "SourceType": "Discovered",
+      "ContentRoot": "D:\\Treinamento C# Udemy\\Aula Secao 18\\Sistema Web\\SystemSallesWeb\\SystemSallesWeb\\wwwroot\\",
+      "BasePath": "_content/SystemSallesWeb",
+      "RelativePath": "lib/bootstrap/dist/css/bootstrap-flatly#[.{fingerprint}]?.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "9iu1g0elde",
+      "Integrity": "T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css"
     },
     {
       "Identity": "D:\\Treinamento C# Udemy\\Aula Secao 18\\Sistema Web\\SystemSallesWeb\\SystemSallesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
@@ -2219,6 +2240,88 @@
         {
           "Name": "integrity",
           "Value": "sha256-j7uqK5VoTT4rUHMr911QEU5Sa94lR3uh9E28XBMlzrM="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flatly.9iu1g0elde.css",
+      "AssetFile": "D:\\Treinamento C# Udemy\\Aula Secao 18\\Sistema Web\\SystemSallesWeb\\SystemSallesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 01:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9iu1g0elde"
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-flatly.css"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4="
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "AssetFile": "D:\\Treinamento C# Udemy\\Aula Secao 18\\Sistema Web\\SystemSallesWeb\\SystemSallesWeb\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-flatly.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 01:28:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4="
         }
       ]
     },

@@ -413,6 +413,88 @@
       ]
     },
     {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flatly.9iu1g0elde.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 01:28:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "9iu1g0elde"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4="
+        },
+        {
+          "Name": "label",
+          "Value": "lib/bootstrap/dist/css/bootstrap-flatly.css"
+        }
+      ]
+    },
+    {
+      "Route": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "AssetFile": "lib/bootstrap/dist/css/bootstrap-flatly.css",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "145224"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/css"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Tue, 28 Jan 2025 01:28:53 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-T3/RrG1QAgzhvB38XdMboIMMT4K4fAmU3tygX/ixIV4="
+        }
+      ]
+    },
+    {
       "Route": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetFile": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "Selectors": [],
