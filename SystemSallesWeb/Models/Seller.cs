@@ -43,7 +43,7 @@ namespace SystemSallesWeb.Models
         {
             Id = id;
             Name = name;
-            this.Email = email;
+            Email = email;
             BirthDate = birthDate;
             BaseSalary = baseSalary;
             Department = department;
